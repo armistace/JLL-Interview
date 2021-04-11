@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>group-ais16-datagov-final.xlsx
+Query=`Group AIS 16$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ABN" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Charity Name" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other Organisation Names" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Registration Status" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Address Type" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Address Line 1" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Address Line 2" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Town/City" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="State" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Postcode" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Country" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Charity Size" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="BRC" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="CONDUCTED_ACTIVITIES" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="NO_CONDUCTED_ACTIVITES_REASON" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Main Activity" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Animal Protection" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Aged Care Activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Civic and advocacy activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Culture and arts" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Economic social and community development" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Emergency Relief" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Employment and training" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Environmental activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Grant-making activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Higher education" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Hospital services and rehabilitation activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Housing activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Income support and maintenance" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="International activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Law and legal services" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Mental health and crisis intervention" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Primary and secondary education" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Religious activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Research" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Social services" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Sports" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other Education" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other health service delivery" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other recreation and social club activity" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other philanthropic intermediaries and voluntarism promotion" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other Activity" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other activity description" size="467" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="% grants for capacity building" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="% grants through public or open process" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="% grants for recipients in rural or regional" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="% grants for multi-year" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="International: Transferred funds or goods o/s" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="International: Operated overseas?" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="International: Other" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="International: Other (description)" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in ACT" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in NSW" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in NT" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in QLD" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in SA" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in TAS" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in VIC" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in WA" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates Overseas" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operating Countries" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Charity activities and outcomes helped achieve charity purpose" size="2994" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_WString" />
+            <Field name="Purpose change in next FY" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Description of purposes change (if applicable)" size="637" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_WString" />
+            <Field name="General Community Australia" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Females" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Males" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Early Childhood under 6" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Children 6 - under 15" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Youth 15 - under 25" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Adults 25 to under 65" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Adults - 65 and over" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="ATSI" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="GLBTI" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Migrants Refugees or Asylum Seekers" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other charities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other beneficiaries not listed" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other beneficiaries description" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Overseas communities or charities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="People in rural/regional/remote communities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Families" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Financially disadvantaged people" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="People at risk of homelessness" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="People with Chronic or Terminal Illness" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="People with Disabilities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Pre or Post Release Offenders and Families" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Unemployed Persons" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Veterans or their families" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Victims of crime" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Victims of Disasters" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Culturally and Linguistically Diverse" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Provided support/services funded by NDIS" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Intend provide support funded by NDIS" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Staff Full time" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Staff Part time" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Staff Casual" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Staff Volunteers" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Accrual Accounting" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Type of Financial Statement" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Is financial report consolidated with more than one entity?" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Fin Report From" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Fin Report to" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Government grants" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Donations and bequests" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="All other revenue" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total revenue" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Other income" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total gross income" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Employee expenses" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Interest expenses" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Grants and donations made for use in Australia" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Grants and donations made for use outside Australia" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="All other expenses" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total expenses" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Net surplus/deficit" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total current assets" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Non-current loans" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Other non-current assets" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total non-current assets" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total assets" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total current liabilities" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Non-current liabilities" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Other non-current liabilities" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total non-current liabilities" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total liabilities" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Net assets/liabilities" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Other Comprehensive Income (if applicable)" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total Comprehensive Income" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Reporting Obligations ACT" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations NSW" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations NT" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations QLD" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations SA" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations TAS" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations VIC" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations WA" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="INCORPORATION_STATUS" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="AIS Submission Date" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Date" />
+            <Field name="AIS Due Date" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Date" />
+            <Field name="Financial Report Submission Date" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>datadotgov_ais16.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ABN" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Charity Name" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Other Organisation Names" size="707" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Registration Status" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Address_Type" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Address Line 1" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Address Line 2" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Town/City" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Postcode" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Charity Size" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="BRC" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="CONDUCTED_ACTIVITIES" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="NO_CONDUCTED_ACTIVITES_REASON" size="943" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Main Activity" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Animal Protection" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Aged Care Activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Civic and advocacy activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Culture and arts" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Economic social and community development" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Emergency Relief" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Employment and training" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Environmental activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grant-making activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Higher education" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hospital services and rehabilitation activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Housing activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Income support and maintenance" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="International activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Law and legal services" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Mental health and crisis intervention" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="primary and secondary education" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Religious activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Research" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Social services" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sports" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other Education" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other health service delivery" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other recreation and social club activity" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other philanthropic intermediaries and voluntarism promotion" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other Activity" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other activity description" size="1000" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="% grants for capacity building" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="% grants through public or open process" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="% grants for recipients in rural or regional" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="% grants for multi-year" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="International: Operated overseas?" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="International: Transferred funds or goods o/s" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="International: Other" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="International: Other (description)" size="996" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Operates in ACT" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in NSW" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in NT" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in QLD" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in SA" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in TAS" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in VIC" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in WA" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates Overseas" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operating Countries" size="975" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Charity activities and outcomes helped achieve charity purpose" size="2997" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Purpose change in next FY" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Description of purposes change (if applicable)" size="1499" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="General Community Australia" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Females" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Males" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Early Childhood under 6" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Children 6 - under 15" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Youth 15 - under 25" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Adults 25 to under 65" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Adults - 65 and over" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="ATSI" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="GLBTI" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Migrants Refugees or Asylum Seekers" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other charities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other beneficiaries not listed" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other beneficiaries description" size="976" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Overseas communities or charities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="People in rural/regional/remote communities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Families" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Financially disadvantaged people" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="People at risk of homelessness" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="People with Chronic or Terminal Illness" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="People with Disabilities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Pre or Post Release Offenders and Families" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Unemployed Persons" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Veterans or their families" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Victims of crime" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Victims of Disasters" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Culturally and Linguistically Diverse" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Provided support/services funded by NDIS" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Intend provide support funded by NDIS" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Staff Full time" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Staff___Part_time" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Staff___Casual" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Staff Volunteers" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Accrual Accounting" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Type of Financial Statement" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Is financial report consolidated with more than one entity?" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Fin Report From" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Fin Report to" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Government grants" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Donations and bequests" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="All other revenue" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total revenue" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Other income" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total gross income" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Employee expenses" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Interest expenses" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Grants and donations made for use in Australia" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Grants and donations made for use outside Australia" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="All other expenses" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total expenses" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Net surplus/deficit" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Other Comprehensive Income (if applicable)" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total Comprehensive Income" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total current assets" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Non_current_loans" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Other non-current assets" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total non-current assets" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total assets" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total current liabilities" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Non_current_liabilities" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total non-current liabilities" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total liabilities" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Net assets/liabilities" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Reporting Obligations ACT" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations NSW" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations NT" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations QLD" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations SA" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations TAS" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations VIC" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations WA" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="AIS Due Date" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="AIS Submission Date" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Financial Report Submission Date" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="306" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="510" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="36">C:\Users\armis\JLL Interview\ETL\ACNC_Joined.sqlite|||ACNC_Joined</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <PostSQL />
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ACNC_Joined.sqlite
+Query=ACNC_Joined</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ETL_Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,211 @@
+https://data.gov.au/data/dataset/7e073d71-4eef-4f0c-921b-9880fb59b206/resource/c7a1fcce-2076-4ca8-9c44-7c3c4fcdb613/download/2016-ais-data.gov.au-explanatory-notes_v1.1.pdf
+
+In the 2016 reporting year, 1,201 charities reported as part of 232 reporting groups.
+The data for these charities does not appear in the main 2016 AIS dataset, but is
+uploaded as a separate file to data.gov.au.
+To give a complete picture of the charities sector in 2016, any analysis should
+include the group reporting charities as well. 
+
+Registration status 
+‘Registered’ - the charity’s registration is active
+ ‘Revoked Compliance’ - the charity’s registration was revoked due to
+compliance action taken by the ACNC
+ ‘Revoked Double Defaulter’ – the charity’s registration was revoked due to
+failure to submit any 2 Annual Information Statements
+ ‘Revoked Registration’ – the charity’s registration was revoked as it is no
+longer entitled to registration as a charity
+ ‘Revoked RTS’ - the charity has been revoked as we have been unable to
+contact the charity (ACNC correspondence has been ‘returned to sender’) 
+‘Voluntarily Revoked But No Longer Wants To Be A Charity’
+ ‘Voluntarily Revoked Merged’
+ ‘Voluntarily Revoked No Longer Operating’
+ ‘Voluntarily Revoked Not Entitled To Be A Charity’. 
+
+Charity Size
+Size Revenue estimate for the last financial
+year
+Small Revenue less than $250,000
+Medium Revenue of $250,000 to $999,999
+Large Revenue of $1 million or more
+
+Basic religious charity’s
+  has a charitable purpose of ‘advancing religion’
+o could not be registered as any other subtype of charity
+o is not a company or incorporated association
+o is not part of a reporting group
+o is not endorsed for deductible gift recipient status
+o did not receive more than $100,000 in government grants in the last financial
+year, or in either of the past two financial years. 
+
+Conducted activities
+
+Main Activity
+Text driven
+
+General activities
+o Animal protection
+o Aged care activities
+o Civic and advocacy activities
+o Culture and arts
+o Economic, social and community development
+o Emergency relief
+o Employment and training
+o Environmental activities
+o Grant-making activities
+o Higher education
+o Hospital services and rehabilitation activities
+o Housing activities
+o Income support and maintenance
+o International activities
+o Law and legal services
+o Mental health and crisis intervention
+o Primary and secondary education
+o Religious activities
+o Research
+o Social Services
+o Sports
+o Other education
+o Other health service delivery
+o Other recreation and social club activity
+o Other philanthropic intermediaries and voluntarism promotion
+o Other activity 
+
+Other Activity Description
+Text if other is chosen
+
+Charities that engaged in international activities were asked to provide further details
+of whether the activities involved: 
+transferring funds or goods overseas
+o operating overseas – including delivering programs
+o other (a narrative needed to be provided at the field ‘international: other
+(description)
+
+Operating states/territories
+
+How purposes were pursued – Question 11
+This is a free text response where charities explain how their activities and outcome
+helped to achieve their purpose. Charities are asked to respond up to a word limit of
+3000 characters. If no information was provided for this field, it will be blank. 
+
+Beneficiaries
+o General community in Australia
+o Females
+o Males
+o Early childhood – under 6
+o Children – 6 to under 15
+o Youth – 15 to under 25
+o Adults -25 to under 65
+o Adults – 65 and over
+o Aboriginal and Torres Strait Islander people (ATSI)
+o Gay, lesbian, bisexual, transgender or intersex persons (GLBTI)
+o Migrants, refugees or asylum seekers
+o Other charities
+o Other beneficiaries not listed (see below)
+o Overseas communities or charities
+o People in rural/regional/remote communities
+o Families
+o Financially disadvantaged people
+o People at risk of homelessness/people experiencing homelessness (‘People
+at risk of homelessness’)
+o People with chronic illness (including terminal) (‘People with chronic or
+terminal illness)
+o People with disabilities
+o Pre/post release offenders and/or their families (‘Pre or Post Release
+Offenders and Families’)
+o Unemployed persons
+o Veterans and/or their families (‘Veterans or their families’)
+o Victims of crime (including family violence) (‘Victims of crime’)
+o Victims of disasters
+People from a culturally and linguistically diverse background (‘Culturally and
+Linguistically Diverse’) 
+
+Other beneficiaries not listed – description
+Charities can also select ‘other beneficiaries not listed’ as a beneficiary type. If they
+do, they are prompted to provide a detailed response at this question. The
+information in this field (if any) is a description of the beneficiaries of the charity that
+are not included in the specified beneficiary categories. This field will be in free text.
+If it is blank, it means that no response was provided to this question. 
+
+Number of paid staff – Question 14
+The fields relating to this question are:
+o Staff Full time
+o Staff Part time
+o Staff Casual
+Charities were asked to estimate the number of full-time employees, part-time
+employees and casual employees who worked for their charity during the last pay
+period of the 2016 reporting period.
+Each of the fields will contain either a number or be blank if the charity didn’t answer
+the question. The number will represent the number of full-time, part-time and/or
+casual staff reported by the charity.
+Number of unpaid staff (volunteers) – Question 14
+The field relating to this question is named ‘Staff Volunteers’. 
+Australian Charities and Not-for-profits Commission
+2016 AIS explanatory notes | June 2020
+13
+Charities were asked to estimate the number of volunteers that they employed
+during 2016. The field will contain this number. 
+
+
+Small charities (income of less than $250k) Medium charities ($50k - $1m) Large charities ($1m+)
+Did your charity use cash or accrual accounting in the
+2016 reporting period?
+Did your charity prepare special purpose financial
+statements or general purpose financial statements?
+Is your charity’s financial report consolidated with more
+than one entity?
+Did your charity prepare special purpose financial
+statements or general purpose financial statements?
+Is your charity’s financial report consolidated with more
+than one entity?
+Income/Receipts Gross income Gross income
+(a) Government grants
+(b) Donations and bequests
+(c) Other revenue/receipts
+(d) Total revenue/receipts (a+b+c)
+(e) Other income (for example, gains)
+(f) Total income/receipts (d+e)
+(a) Government grants
+(b) Donations and bequests
+(c) All other revenue
+(d) Total revenue (a+b+c)
+(e) Other income (for example, gains)
+(f) Total gross income (d+e)
+(a) Government grants
+(b) Donations and bequests
+(c) All other revenue
+(d) Total revenue (a+b+c)
+(e) Other income (for example, gains)
+(f) Total gross income (d+e)
+Expenses/Payments Expenses Expenses
+(g) Employee expenses/payments
+(h) Grants and donations for use in Australia
+(i) Grants and donations for use outside Australia
+(j) Other expenses/payments
+(k) Total expenses/payments (g+h+i+j)
+(j) Net surplus/deficit (f-k)
+(g) Employee expenses
+(h) Grants and donations for use in Australia
+(i) Grants and donations for use outside Australia
+(j) All other expenses
+(k) Total expenses (g+h+i+j)
+(l) Net surplus/deficit (f-k)
+(m) Other comprehensive income (if applicable)
+(n) Total comprehensive income (l+m)
+(g) Employee expenses
+(h) Interest expenses
+(i) Grants and donations for use in Australia
+(j) Grants and donations for use outside Australia
+(k) All other expenses
+(l) Total expenses (g+h+i+j+k)
+(m) Net surplus/deficit (f-l)
+(n) Other comprehensive income (if applicable)
+(o) Total comprehensive income (m+n)
+Assets Assets Assets
+(m) Total assets (o) Total current assets
+(p) Total non-current assets
+(q) Total assets (o+p)
+(p) Total current assets
+(q) Non-current loans
+(r) Other non-current assets
+(s) Total non-current assets (q+r)
+(t) Total assets (p+s) 

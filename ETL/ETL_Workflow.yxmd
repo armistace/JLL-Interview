@@ -1,0 +1,2758 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Get Grouped AIS Data</Name>
+          <DefaultAnnotationText>Get Grouped AIS Data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ABN" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Charity Name" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other Organisation Names" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Registration Status" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Address Type" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Address Line 1" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Address Line 2" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Town/City" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="State" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Postcode" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Country" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Charity Size" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="BRC" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="CONDUCTED_ACTIVITIES" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="NO_CONDUCTED_ACTIVITES_REASON" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Main Activity" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Animal Protection" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Aged Care Activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Civic and advocacy activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Culture and arts" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Economic social and community development" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Emergency Relief" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Employment and training" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Environmental activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Grant-making activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Higher education" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Hospital services and rehabilitation activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Housing activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Income support and maintenance" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="International activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Law and legal services" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Mental health and crisis intervention" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Primary and secondary education" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Religious activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Research" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Social services" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Sports" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other Education" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other health service delivery" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other recreation and social club activity" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other philanthropic intermediaries and voluntarism promotion" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other Activity" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other activity description" size="467" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="% grants for capacity building" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="% grants through public or open process" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="% grants for recipients in rural or regional" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="% grants for multi-year" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="International: Transferred funds or goods o/s" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="International: Operated overseas?" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="International: Other" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="International: Other (description)" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in ACT" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in NSW" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in NT" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in QLD" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in SA" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in TAS" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in VIC" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates in WA" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operates Overseas" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Operating Countries" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Charity activities and outcomes helped achieve charity purpose" size="2994" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_WString" />
+            <Field name="Purpose change in next FY" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Description of purposes change (if applicable)" size="637" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_WString" />
+            <Field name="General Community Australia" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Females" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Males" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Early Childhood under 6" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Children 6 - under 15" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Youth 15 - under 25" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Adults 25 to under 65" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Adults - 65 and over" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="ATSI" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="GLBTI" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Migrants Refugees or Asylum Seekers" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other charities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other beneficiaries not listed" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Other beneficiaries description" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Overseas communities or charities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="People in rural/regional/remote communities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Families" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Financially disadvantaged people" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="People at risk of homelessness" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="People with Chronic or Terminal Illness" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="People with Disabilities" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Pre or Post Release Offenders and Families" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Unemployed Persons" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Veterans or their families" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Victims of crime" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Victims of Disasters" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Culturally and Linguistically Diverse" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Provided support/services funded by NDIS" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Intend provide support funded by NDIS" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Staff Full time" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Staff Part time" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Staff Casual" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Staff Volunteers" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Accrual Accounting" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Type of Financial Statement" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Is financial report consolidated with more than one entity?" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Fin Report From" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Fin Report to" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Government grants" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Donations and bequests" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="All other revenue" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total revenue" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Other income" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total gross income" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Employee expenses" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Interest expenses" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Grants and donations made for use in Australia" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Grants and donations made for use outside Australia" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="All other expenses" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total expenses" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Net surplus/deficit" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total current assets" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Non-current loans" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Other non-current assets" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total non-current assets" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total assets" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total current liabilities" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Non-current liabilities" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Other non-current liabilities" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total non-current liabilities" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total liabilities" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Net assets/liabilities" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Other Comprehensive Income (if applicable)" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Total Comprehensive Income" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Double" />
+            <Field name="Reporting Obligations ACT" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations NSW" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations NT" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations QLD" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations SA" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations TAS" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations VIC" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="Reporting Obligations WA" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="INCORPORATION_STATUS" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+            <Field name="AIS Submission Date" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Date" />
+            <Field name="AIS Due Date" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="Date" />
+            <Field name="Financial Report Submission Date" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group AIS 16$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Get Ungroup AIS data</Name>
+          <DefaultAnnotationText>Get Ungroup AIS data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ABN" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Charity Name" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Other Organisation Names" size="707" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Registration Status" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Address_Type" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Address Line 1" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Address Line 2" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Town/City" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Postcode" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Charity Size" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="BRC" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="CONDUCTED_ACTIVITIES" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="NO_CONDUCTED_ACTIVITES_REASON" size="943" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Main Activity" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Animal Protection" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Aged Care Activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Civic and advocacy activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Culture and arts" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Economic social and community development" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Emergency Relief" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Employment and training" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Environmental activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grant-making activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Higher education" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hospital services and rehabilitation activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Housing activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Income support and maintenance" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="International activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Law and legal services" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Mental health and crisis intervention" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="primary and secondary education" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Religious activities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Research" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Social services" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sports" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other Education" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other health service delivery" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other recreation and social club activity" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other philanthropic intermediaries and voluntarism promotion" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other Activity" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other activity description" size="1000" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="% grants for capacity building" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="% grants through public or open process" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="% grants for recipients in rural or regional" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="% grants for multi-year" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="International: Operated overseas?" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="International: Transferred funds or goods o/s" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="International: Other" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="International: Other (description)" size="996" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Operates in ACT" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in NSW" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in NT" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in QLD" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in SA" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in TAS" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in VIC" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates in WA" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operates Overseas" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Operating Countries" size="975" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Charity activities and outcomes helped achieve charity purpose" size="2997" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Purpose change in next FY" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Description of purposes change (if applicable)" size="1499" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="General Community Australia" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Females" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Males" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Early Childhood under 6" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Children 6 - under 15" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Youth 15 - under 25" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Adults 25 to under 65" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Adults - 65 and over" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="ATSI" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="GLBTI" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Migrants Refugees or Asylum Seekers" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other charities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other beneficiaries not listed" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Other beneficiaries description" size="976" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Overseas communities or charities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="People in rural/regional/remote communities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Families" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Financially disadvantaged people" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="People at risk of homelessness" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="People with Chronic or Terminal Illness" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="People with Disabilities" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Pre or Post Release Offenders and Families" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Unemployed Persons" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Veterans or their families" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Victims of crime" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Victims of Disasters" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Culturally and Linguistically Diverse" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Provided support/services funded by NDIS" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Intend provide support funded by NDIS" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Staff Full time" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Staff___Part_time" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Staff___Casual" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Staff Volunteers" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Accrual Accounting" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Type of Financial Statement" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Is financial report consolidated with more than one entity?" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Fin Report From" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Fin Report to" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Government grants" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Donations and bequests" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="All other revenue" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total revenue" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Other income" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total gross income" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Employee expenses" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Interest expenses" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Grants and donations made for use in Australia" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Grants and donations made for use outside Australia" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="All other expenses" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total expenses" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Net surplus/deficit" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Other Comprehensive Income (if applicable)" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total Comprehensive Income" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total current assets" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Non_current_loans" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Other non-current assets" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total non-current assets" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total assets" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total current liabilities" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Non_current_liabilities" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total non-current liabilities" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total liabilities" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Net assets/liabilities" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Reporting Obligations ACT" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations NSW" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations NT" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations QLD" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations SA" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations TAS" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations VIC" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Reporting Obligations WA" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="AIS Due Date" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="AIS Submission Date" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Financial Report Submission Date" size="255" source="File: C:\Users\armis\JLL Interview\Data\datadotgov_ais16.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="426" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="36">C:\Users\armis\JLL Interview\ETL\ACNC_Joined.sqlite|||ACNC_Ungrouped</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <PostSQL />
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Add AIS  to SQL Lite DB for Tableau</Name>
+          <DefaultAnnotationText>ACNC_Joined.sqlite
+Query=ACNC_Ungrouped</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="22" />
+          <Fields>
+            <Field name="Age Group" />
+            <Field name="2016" />
+            <Field name="2017" />
+            <Field name="2018" />
+            <Field name="2019" />
+            <Field name="2020" />
+            <Field name="Type" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0–4</c>
+              <c>807893</c>
+              <c>811093</c>
+              <c>807995</c>
+              <c>806625</c>
+              <c>801169</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>5–9</c>
+              <c>804219</c>
+              <c>814019</c>
+              <c>823433</c>
+              <c>830275</c>
+              <c>835815</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>10–14</c>
+              <c>735448</c>
+              <c>757231</c>
+              <c>779271</c>
+              <c>799164</c>
+              <c>819062</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>15–19</c>
+              <c>755575</c>
+              <c>760068</c>
+              <c>765044</c>
+              <c>770645</c>
+              <c>767366</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>20–24</c>
+              <c>864974</c>
+              <c>878560</c>
+              <c>890402</c>
+              <c>899060</c>
+              <c>879960</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>25–29</c>
+              <c>907735</c>
+              <c>924848</c>
+              <c>940094</c>
+              <c>957746</c>
+              <c>960828</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>30–34</c>
+              <c>892061</c>
+              <c>908609</c>
+              <c>920987</c>
+              <c>933587</c>
+              <c>948579</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>35–39</c>
+              <c>801868</c>
+              <c>828146</c>
+              <c>857690</c>
+              <c>885449</c>
+              <c>908843</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>40–44</c>
+              <c>807640</c>
+              <c>797760</c>
+              <c>793288</c>
+              <c>793623</c>
+              <c>805040</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>45–49</c>
+              <c>785668</c>
+              <c>807186</c>
+              <c>819629</c>
+              <c>825686</c>
+              <c>825915</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>50–54</c>
+              <c>762788</c>
+              <c>754634</c>
+              <c>749652</c>
+              <c>750782</c>
+              <c>763142</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>55–59</c>
+              <c>723738</c>
+              <c>738626</c>
+              <c>749988</c>
+              <c>757941</c>
+              <c>759843</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>60–64</c>
+              <c>637586</c>
+              <c>649290</c>
+              <c>661359</c>
+              <c>677332</c>
+              <c>697341</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>65–69</c>
+              <c>589110</c>
+              <c>586613</c>
+              <c>589877</c>
+              <c>596458</c>
+              <c>608785</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>70–74</c>
+              <c>436841</c>
+              <c>470416</c>
+              <c>499504</c>
+              <c>518927</c>
+              <c>540440</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>75–79</c>
+              <c>308155</c>
+              <c>321691</c>
+              <c>333721</c>
+              <c>351089</c>
+              <c>370824</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>80–84</c>
+              <c>202502</c>
+              <c>209914</c>
+              <c>218461</c>
+              <c>227926</c>
+              <c>239845</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>85–89</c>
+              <c>122444</c>
+              <c>124791</c>
+              <c>126449</c>
+              <c>129208</c>
+              <c>131023</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>90–94</c>
+              <c>46831</c>
+              <c>49115</c>
+              <c>51814</c>
+              <c>53978</c>
+              <c>57459</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>95–99</c>
+              <c>9227</c>
+              <c>10274</c>
+              <c>11228</c>
+              <c>12470</c>
+              <c>13730</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>100 and over</c>
+              <c>736</c>
+              <c>886</c>
+              <c>1156</c>
+              <c>1406</c>
+              <c>1996</c>
+              <c>Males</c>
+            </r>
+            <r>
+              <c>All ages</c>
+              <c>12003039</c>
+              <c>12203770</c>
+              <c>12391042</c>
+              <c>12579377</c>
+              <c>12737005</c>
+              <c>Males</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Males by Age Population</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="22" />
+          <Fields>
+            <Field name="Age Group" />
+            <Field name="2016" />
+            <Field name="2017" />
+            <Field name="2018" />
+            <Field name="2019" />
+            <Field name="2020" />
+            <Field name="Type" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0–4</c>
+              <c>765733</c>
+              <c>767901</c>
+              <c>764298</c>
+              <c>761580</c>
+              <c>755542</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>5–9</c>
+              <c>763062</c>
+              <c>772832</c>
+              <c>781107</c>
+              <c>788307</c>
+              <c>792778</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>10–14</c>
+              <c>696242</c>
+              <c>716032</c>
+              <c>736646</c>
+              <c>756676</c>
+              <c>776753</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>15–19</c>
+              <c>719579</c>
+              <c>722532</c>
+              <c>725700</c>
+              <c>728456</c>
+              <c>724636</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>20–24</c>
+              <c>829100</c>
+              <c>840528</c>
+              <c>849233</c>
+              <c>850721</c>
+              <c>832344</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>25–29</c>
+              <c>906561</c>
+              <c>924383</c>
+              <c>937224</c>
+              <c>949146</c>
+              <c>945708</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>30–34</c>
+              <c>902024</c>
+              <c>924450</c>
+              <c>941839</c>
+              <c>959375</c>
+              <c>975112</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>35–39</c>
+              <c>805594</c>
+              <c>833090</c>
+              <c>865201</c>
+              <c>896946</c>
+              <c>926177</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>40–44</c>
+              <c>819136</c>
+              <c>806253</c>
+              <c>800767</c>
+              <c>802591</c>
+              <c>815167</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>45–49</c>
+              <c>819262</c>
+              <c>841317</c>
+              <c>852481</c>
+              <c>854071</c>
+              <c>850801</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>50–54</c>
+              <c>785688</c>
+              <c>781080</c>
+              <c>779234</c>
+              <c>785017</c>
+              <c>801386</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>55–59</c>
+              <c>752177</c>
+              <c>767806</c>
+              <c>779447</c>
+              <c>790197</c>
+              <c>795796</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>60–64</c>
+              <c>667305</c>
+              <c>682744</c>
+              <c>697704</c>
+              <c>714617</c>
+              <c>739313</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>65–69</c>
+              <c>603963</c>
+              <c>606859</c>
+              <c>617041</c>
+              <c>631045</c>
+              <c>649391</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>70–74</c>
+              <c>453355</c>
+              <c>487686</c>
+              <c>517622</c>
+              <c>539265</c>
+              <c>564551</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>75–79</c>
+              <c>343045</c>
+              <c>355451</c>
+              <c>366307</c>
+              <c>383275</c>
+              <c>402918</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>80–84</c>
+              <c>252601</c>
+              <c>259289</c>
+              <c>267379</c>
+              <c>277175</c>
+              <c>288598</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>85–89</c>
+              <c>182965</c>
+              <c>182945</c>
+              <c>183319</c>
+              <c>184648</c>
+              <c>185170</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>90–94</c>
+              <c>93274</c>
+              <c>95436</c>
+              <c>97353</c>
+              <c>99014</c>
+              <c>100966</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>95–99</c>
+              <c>24416</c>
+              <c>26506</c>
+              <c>28476</c>
+              <c>30660</c>
+              <c>32767</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>100 and over</c>
+              <c>2786</c>
+              <c>2970</c>
+              <c>3268</c>
+              <c>3586</c>
+              <c>4419</c>
+              <c>Females</c>
+            </r>
+            <r>
+              <c>All ages</c>
+              <c>12187868</c>
+              <c>12398090</c>
+              <c>12591646</c>
+              <c>12786368</c>
+              <c>12960293</c>
+              <c>Females</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Females by Age Population</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="22" />
+          <Fields>
+            <Field name="Age Group" />
+            <Field name="2016" />
+            <Field name="2017" />
+            <Field name="2018" />
+            <Field name="2019" />
+            <Field name="2020" />
+            <Field name="Type" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0–4</c>
+              <c>1573626</c>
+              <c>1578994</c>
+              <c>1572293</c>
+              <c>1568205</c>
+              <c>1556711</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>5–9</c>
+              <c>1567281</c>
+              <c>1586851</c>
+              <c>1604540</c>
+              <c>1618582</c>
+              <c>1628593</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>10–14</c>
+              <c>1431690</c>
+              <c>1473263</c>
+              <c>1515917</c>
+              <c>1555840</c>
+              <c>1595815</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>15–19</c>
+              <c>1475154</c>
+              <c>1482600</c>
+              <c>1490744</c>
+              <c>1499101</c>
+              <c>1492002</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>20–24</c>
+              <c>1694074</c>
+              <c>1719088</c>
+              <c>1739635</c>
+              <c>1749781</c>
+              <c>1712304</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>25–29</c>
+              <c>1814296</c>
+              <c>1849231</c>
+              <c>1877318</c>
+              <c>1906892</c>
+              <c>1906536</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>30–34</c>
+              <c>1794085</c>
+              <c>1833059</c>
+              <c>1862826</c>
+              <c>1892962</c>
+              <c>1923691</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>35–39</c>
+              <c>1607462</c>
+              <c>1661236</c>
+              <c>1722891</c>
+              <c>1782395</c>
+              <c>1835020</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>40–44</c>
+              <c>1626776</c>
+              <c>1604013</c>
+              <c>1594055</c>
+              <c>1596214</c>
+              <c>1620207</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>45–49</c>
+              <c>1604930</c>
+              <c>1648503</c>
+              <c>1672110</c>
+              <c>1679757</c>
+              <c>1676716</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>50–54</c>
+              <c>1548476</c>
+              <c>1535714</c>
+              <c>1528886</c>
+              <c>1535799</c>
+              <c>1564528</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>55–59</c>
+              <c>1475915</c>
+              <c>1506432</c>
+              <c>1529435</c>
+              <c>1548138</c>
+              <c>1555639</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>60–64</c>
+              <c>1304891</c>
+              <c>1332034</c>
+              <c>1359063</c>
+              <c>1391949</c>
+              <c>1436654</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>65–69</c>
+              <c>1193073</c>
+              <c>1193472</c>
+              <c>1206918</c>
+              <c>1227503</c>
+              <c>1258176</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>70–74</c>
+              <c>890196</c>
+              <c>958102</c>
+              <c>1017126</c>
+              <c>1058192</c>
+              <c>1104991</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>75–79</c>
+              <c>651200</c>
+              <c>677142</c>
+              <c>700028</c>
+              <c>734364</c>
+              <c>773742</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>80–84</c>
+              <c>455103</c>
+              <c>469203</c>
+              <c>485840</c>
+              <c>505101</c>
+              <c>528443</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>85–89</c>
+              <c>305409</c>
+              <c>307736</c>
+              <c>309768</c>
+              <c>313856</c>
+              <c>316193</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>90–94</c>
+              <c>140105</c>
+              <c>144551</c>
+              <c>149167</c>
+              <c>152992</c>
+              <c>158425</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>95–99</c>
+              <c>33643</c>
+              <c>36780</c>
+              <c>39704</c>
+              <c>43130</c>
+              <c>46497</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>100 and over</c>
+              <c>3522</c>
+              <c>3856</c>
+              <c>4424</c>
+              <c>4992</c>
+              <c>6415</c>
+              <c>Persons</c>
+            </r>
+            <r>
+              <c>All ages</c>
+              <c>24190907</c>
+              <c>24601860</c>
+              <c>24982688</c>
+              <c>25365745</c>
+              <c>25697298</c>
+              <c>Persons</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="234" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Join Population Stats</Name>
+          <DefaultAnnotationText>Join Population Stats</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="558" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="36">C:\Users\armis\JLL Interview\ETL\ACNC_Joined.sqlite|||Population_Stats</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <PostSQL />
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Add Population Stats to DB\</Name>
+          <DefaultAnnotationText>ACNC_Joined.sqlite
+Query=Population_Stats</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="17" />
+          <Fields>
+            <Field name="Age Group" />
+            <Field name="Aboriginal" />
+            <Field name="Torres Strait Islander" />
+            <Field name="Both Aboriginal and Torres Strait    Islander" />
+            <Field name="Aboriginal and/or Torres Strait Islander " />
+            <Field name="Non-Indigenous" />
+            <Field name="Total" />
+            <Field name="Type" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0–4</c>
+              <c>10739</c>
+              <c>1397</c>
+              <c>1617</c>
+              <c>13753</c>
+              <c>148849</c>
+              <c>162602</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>5–9</c>
+              <c>10897</c>
+              <c>1473</c>
+              <c>1563</c>
+              <c>13933</c>
+              <c>155594</c>
+              <c>169527</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>10–14</c>
+              <c>10180</c>
+              <c>1331</c>
+              <c>1250</c>
+              <c>12761</c>
+              <c>144642</c>
+              <c>157403</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>15–19</c>
+              <c>9188</c>
+              <c>1368</c>
+              <c>1115</c>
+              <c>11671</c>
+              <c>145054</c>
+              <c>156725</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>20–24</c>
+              <c>8319</c>
+              <c>1212</c>
+              <c>956</c>
+              <c>10487</c>
+              <c>162169</c>
+              <c>172656</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>25–29</c>
+              <c>6660</c>
+              <c>1015</c>
+              <c>656</c>
+              <c>8331</c>
+              <c>165016</c>
+              <c>173347</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>30–34</c>
+              <c>5337</c>
+              <c>830</c>
+              <c>529</c>
+              <c>6696</c>
+              <c>162053</c>
+              <c>168749</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>35–39</c>
+              <c>4624</c>
+              <c>705</c>
+              <c>446</c>
+              <c>5775</c>
+              <c>148603</c>
+              <c>154378</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>40–44</c>
+              <c>4905</c>
+              <c>690</c>
+              <c>406</c>
+              <c>6001</c>
+              <c>157288</c>
+              <c>163289</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>45–49</c>
+              <c>4489</c>
+              <c>659</c>
+              <c>304</c>
+              <c>5452</c>
+              <c>154059</c>
+              <c>159511</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>50–54</c>
+              <c>3963</c>
+              <c>550</c>
+              <c>280</c>
+              <c>4793</c>
+              <c>148526</c>
+              <c>153319</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>55–59</c>
+              <c>3140</c>
+              <c>414</c>
+              <c>216</c>
+              <c>3770</c>
+              <c>141170</c>
+              <c>144940</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>60–64</c>
+              <c>2248</c>
+              <c>329</c>
+              <c>139</c>
+              <c>2716</c>
+              <c>125062</c>
+              <c>127778</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>65–69</c>
+              <c>1585</c>
+              <c>239</c>
+              <c>95</c>
+              <c>1919</c>
+              <c>118295</c>
+              <c>120214</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>70–74</c>
+              <c>846</c>
+              <c>106</c>
+              <c>60</c>
+              <c>1012</c>
+              <c>88264</c>
+              <c>89276</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>75 and over</c>
+              <c>726</c>
+              <c>153</c>
+              <c>42</c>
+              <c>921</c>
+              <c>128538</c>
+              <c>129459</c>
+              <c>ATSI Male</c>
+            </r>
+            <r>
+              <c>Total</c>
+              <c>87846</c>
+              <c>12471</c>
+              <c>9674</c>
+              <c>109991</c>
+              <c>2293182</c>
+              <c>2403173</c>
+              <c>ATSI Male</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>ATSI Males</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="17" />
+          <Fields>
+            <Field name="Age Group" />
+            <Field name="Aboriginal" />
+            <Field name="Torres Strait Islander" />
+            <Field name="Both Aboriginal and Torres Strait    Islander" />
+            <Field name="Aboriginal and/or Torres Strait Islander " />
+            <Field name="Non-Indigenous" />
+            <Field name="Total" />
+            <Field name="Type" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0–4</c>
+              <c>21036</c>
+              <c>2740</c>
+              <c>3185</c>
+              <c>26961</c>
+              <c>290368</c>
+              <c>317329</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>5–9</c>
+              <c>21341</c>
+              <c>2896</c>
+              <c>3135</c>
+              <c>27372</c>
+              <c>303154</c>
+              <c>330526</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>10–14</c>
+              <c>19832</c>
+              <c>2684</c>
+              <c>2561</c>
+              <c>25077</c>
+              <c>281487</c>
+              <c>306564</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>15–19</c>
+              <c>18217</c>
+              <c>2599</c>
+              <c>2184</c>
+              <c>23000</c>
+              <c>284274</c>
+              <c>307274</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>20–24</c>
+              <c>16318</c>
+              <c>2352</c>
+              <c>1851</c>
+              <c>20521</c>
+              <c>320983</c>
+              <c>341504</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>25–29</c>
+              <c>13290</c>
+              <c>1937</c>
+              <c>1366</c>
+              <c>16593</c>
+              <c>331321</c>
+              <c>347914</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>30–34</c>
+              <c>10915</c>
+              <c>1596</c>
+              <c>1060</c>
+              <c>13571</c>
+              <c>328088</c>
+              <c>341659</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>35–39</c>
+              <c>9409</c>
+              <c>1484</c>
+              <c>925</c>
+              <c>11818</c>
+              <c>301404</c>
+              <c>313222</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>40–44</c>
+              <c>10121</c>
+              <c>1410</c>
+              <c>836</c>
+              <c>12367</c>
+              <c>318605</c>
+              <c>330972</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>45–49</c>
+              <c>9583</c>
+              <c>1304</c>
+              <c>668</c>
+              <c>11555</c>
+              <c>315449</c>
+              <c>327004</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>50–54</c>
+              <c>8311</c>
+              <c>1074</c>
+              <c>562</c>
+              <c>9947</c>
+              <c>302878</c>
+              <c>312825</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>55–59</c>
+              <c>6639</c>
+              <c>868</c>
+              <c>439</c>
+              <c>7946</c>
+              <c>287138</c>
+              <c>295084</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>60–64</c>
+              <c>4769</c>
+              <c>747</c>
+              <c>290</c>
+              <c>5806</c>
+              <c>254244</c>
+              <c>260050</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>65–69</c>
+              <c>3349</c>
+              <c>537</c>
+              <c>188</c>
+              <c>4074</c>
+              <c>237062</c>
+              <c>241136</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>70–74</c>
+              <c>1901</c>
+              <c>257</c>
+              <c>139</c>
+              <c>2297</c>
+              <c>177294</c>
+              <c>179591</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>75 and over</c>
+              <c>1879</c>
+              <c>388</c>
+              <c>104</c>
+              <c>2371</c>
+              <c>290127</c>
+              <c>292498</c>
+              <c>ATSI Person</c>
+            </r>
+            <r>
+              <c>Total</c>
+              <c>176910</c>
+              <c>24873</c>
+              <c>19493</c>
+              <c>221276</c>
+              <c>4623876</c>
+              <c>4845152</c>
+              <c>ATSI Person</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>ATSI Persons</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="17" />
+          <Fields>
+            <Field name="Age Group" />
+            <Field name="Aboriginal" />
+            <Field name="Torres Strait Islander" />
+            <Field name="Both Aboriginal and Torres Strait    Islander" />
+            <Field name="Aboriginal and/or Torres Strait Islander " />
+            <Field name="Non-Indigenous" />
+            <Field name="Total" />
+            <Field name="Type" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0–4</c>
+              <c>10297</c>
+              <c>1343</c>
+              <c>1568</c>
+              <c>13208</c>
+              <c>141519</c>
+              <c>154727</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>5–9</c>
+              <c>10444</c>
+              <c>1423</c>
+              <c>1572</c>
+              <c>13439</c>
+              <c>147560</c>
+              <c>160999</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>10–14</c>
+              <c>9652</c>
+              <c>1353</c>
+              <c>1311</c>
+              <c>12316</c>
+              <c>136845</c>
+              <c>149161</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>15–19</c>
+              <c>9029</c>
+              <c>1231</c>
+              <c>1069</c>
+              <c>11329</c>
+              <c>139220</c>
+              <c>150549</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>20–24</c>
+              <c>7999</c>
+              <c>1140</c>
+              <c>895</c>
+              <c>10034</c>
+              <c>158814</c>
+              <c>168848</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>25–29</c>
+              <c>6630</c>
+              <c>922</c>
+              <c>710</c>
+              <c>8262</c>
+              <c>166305</c>
+              <c>174567</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>30–34</c>
+              <c>5578</c>
+              <c>766</c>
+              <c>531</c>
+              <c>6875</c>
+              <c>166035</c>
+              <c>172910</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>35–39</c>
+              <c>4785</c>
+              <c>779</c>
+              <c>479</c>
+              <c>6043</c>
+              <c>152801</c>
+              <c>158844</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>40–44</c>
+              <c>5216</c>
+              <c>720</c>
+              <c>430</c>
+              <c>6366</c>
+              <c>161317</c>
+              <c>167683</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>45–49</c>
+              <c>5094</c>
+              <c>645</c>
+              <c>364</c>
+              <c>6103</c>
+              <c>161390</c>
+              <c>167493</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>50–54</c>
+              <c>4348</c>
+              <c>524</c>
+              <c>282</c>
+              <c>5154</c>
+              <c>154352</c>
+              <c>159506</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>55–59</c>
+              <c>3499</c>
+              <c>454</c>
+              <c>223</c>
+              <c>4176</c>
+              <c>145968</c>
+              <c>150144</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>60–64</c>
+              <c>2521</c>
+              <c>418</c>
+              <c>151</c>
+              <c>3090</c>
+              <c>129182</c>
+              <c>132272</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>65–69</c>
+              <c>1764</c>
+              <c>298</c>
+              <c>93</c>
+              <c>2155</c>
+              <c>118767</c>
+              <c>120922</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>70–74</c>
+              <c>1055</c>
+              <c>151</c>
+              <c>79</c>
+              <c>1285</c>
+              <c>89030</c>
+              <c>90315</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>75 and over</c>
+              <c>1153</c>
+              <c>235</c>
+              <c>62</c>
+              <c>1450</c>
+              <c>161589</c>
+              <c>163039</c>
+              <c>ATSI Female</c>
+            </r>
+            <r>
+              <c>Total</c>
+              <c>89064</c>
+              <c>12402</c>
+              <c>9819</c>
+              <c>111285</c>
+              <c>2330694</c>
+              <c>2441979</c>
+              <c>ATSI Female</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>ATSI Females</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="246" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="558" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="36">C:\Users\armis\JLL Interview\ETL\ACNC_Joined.sqlite|||ATSI_Stats</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <PostSQL />
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ACNC_Joined.sqlite
+Query=ATSI_Stats</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="402" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="834" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Age group" />
+            <Field name="2003" />
+            <Field name="2009" />
+            <Field name="2012" />
+            <Field name="2015" />
+            <Field name="2018" />
+            <Field name="Type" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0–4</c>
+              <c>29.7</c>
+              <c>28.1</c>
+              <c>28</c>
+              <c>36.7</c>
+              <c>38.1</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>5–14</c>
+              <c>169.1</c>
+              <c>159.5</c>
+              <c>159.7</c>
+              <c>178.6</c>
+              <c>191.1</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>15–24</c>
+              <c>127.2</c>
+              <c>105.8</c>
+              <c>124.6</c>
+              <c>135.9</c>
+              <c>146.8</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>25–34</c>
+              <c>174.1</c>
+              <c>136.5</c>
+              <c>142.9</c>
+              <c>140.7</c>
+              <c>128.1</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>35–44</c>
+              <c>214.2</c>
+              <c>197.3</c>
+              <c>178.2</c>
+              <c>179.1</c>
+              <c>146.4</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>45–54</c>
+              <c>291.2</c>
+              <c>253.8</c>
+              <c>264.9</c>
+              <c>240.5</c>
+              <c>239.6</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>55–59</c>
+              <c>166.9</c>
+              <c>171.7</c>
+              <c>178.1</c>
+              <c>158.7</c>
+              <c>172.6</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>60–64</c>
+              <c>174.1</c>
+              <c>203.2</c>
+              <c>200.1</c>
+              <c>198.8</c>
+              <c>178.1</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>65–69</c>
+              <c>147.2</c>
+              <c>180.4</c>
+              <c>205.8</c>
+              <c>225.6</c>
+              <c>217.5</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>70–74</c>
+              <c>145.9</c>
+              <c>159.6</c>
+              <c>160.7</c>
+              <c>184.1</c>
+              <c>220</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>75–79</c>
+              <c>139.6</c>
+              <c>139.8</c>
+              <c>152.2</c>
+              <c>156</c>
+              <c>186.4</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>80–84</c>
+              <c>107.4</c>
+              <c>127.2</c>
+              <c>129.4</c>
+              <c>123.9</c>
+              <c>138.1</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>85–89</c>
+              <c>50.3</c>
+              <c>74.2</c>
+              <c>87.5</c>
+              <c>93.4</c>
+              <c>90.1</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>90 and over</c>
+              <c>20.8</c>
+              <c>26.2</c>
+              <c>39</c>
+              <c>39.4</c>
+              <c>53.6</c>
+              <c>Dis Males</c>
+            </r>
+            <r>
+              <c>Total</c>
+              <c>1957.6</c>
+              <c>1963.2</c>
+              <c>2047.5</c>
+              <c>2088.8</c>
+              <c>2144</c>
+              <c>Dis Males</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Disabled Males</Name>
+          <DefaultAnnotationText>Disabled Males</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="1002" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Age group" />
+            <Field name="2003" />
+            <Field name="2009" />
+            <Field name="2012" />
+            <Field name="2015" />
+            <Field name="2018" />
+            <Field name="Type" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0–4</c>
+              <c>53.5</c>
+              <c>47.3</c>
+              <c>53.3</c>
+              <c>52.8</c>
+              <c>57.8</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>5–14</c>
+              <c>266.4</c>
+              <c>241</c>
+              <c>244.4</c>
+              <c>274.6</c>
+              <c>299.2</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>15–24</c>
+              <c>251.3</c>
+              <c>204.2</c>
+              <c>245.3</c>
+              <c>249.6</c>
+              <c>290.6</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>25–34</c>
+              <c>316.1</c>
+              <c>265.6</c>
+              <c>288.9</c>
+              <c>284.5</c>
+              <c>263.7</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>35–44</c>
+              <c>420.2</c>
+              <c>399.7</c>
+              <c>365.6</c>
+              <c>384.9</c>
+              <c>323.4</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>45–54</c>
+              <c>581.5</c>
+              <c>538.5</c>
+              <c>553.4</c>
+              <c>505</c>
+              <c>496.1</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>55–59</c>
+              <c>346.6</c>
+              <c>359.9</c>
+              <c>355</c>
+              <c>335.8</c>
+              <c>332.8</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>60–64</c>
+              <c>331.2</c>
+              <c>418.2</c>
+              <c>407.6</c>
+              <c>402</c>
+              <c>364</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>65–69</c>
+              <c>284.6</c>
+              <c>346.3</c>
+              <c>411.9</c>
+              <c>434</c>
+              <c>436.6</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>70–74</c>
+              <c>308.8</c>
+              <c>328.5</c>
+              <c>336.1</c>
+              <c>377.1</c>
+              <c>433.9</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>75–79</c>
+              <c>307.2</c>
+              <c>292.3</c>
+              <c>322.4</c>
+              <c>333.4</c>
+              <c>380.5</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>80–84</c>
+              <c>257.5</c>
+              <c>285.7</c>
+              <c>295.9</c>
+              <c>287</c>
+              <c>308.1</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>85–89</c>
+              <c>148.5</c>
+              <c>205.7</c>
+              <c>224.7</c>
+              <c>224.6</c>
+              <c>219.9</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>90 and over</c>
+              <c>84.9</c>
+              <c>93.2</c>
+              <c>129.9</c>
+              <c>141.6</c>
+              <c>163.7</c>
+              <c>Dis All</c>
+            </r>
+            <r>
+              <c>Total</c>
+              <c>3958.3</c>
+              <c>4026.2</c>
+              <c>4234.2</c>
+              <c>4290.1</c>
+              <c>4367.2</c>
+              <c>Dis All</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Disabled All</Name>
+          <DefaultAnnotationText>Disabled All</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Age group" />
+            <Field name="2003" />
+            <Field name="2009" />
+            <Field name="2012" />
+            <Field name="2015" />
+            <Field name="2018" />
+            <Field name="Type" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0–4</c>
+              <c>23.8</c>
+              <c>19.2</c>
+              <c>25</c>
+              <c>17.8</c>
+              <c>20.2</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>5–14</c>
+              <c>97.3</c>
+              <c>81.6</c>
+              <c>83.8</c>
+              <c>98.7</c>
+              <c>107.7</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>15–24</c>
+              <c>124.1</c>
+              <c>98.5</c>
+              <c>121.4</c>
+              <c>114.1</c>
+              <c>144.8</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>25–34</c>
+              <c>142</c>
+              <c>129.1</c>
+              <c>147</c>
+              <c>143.4</c>
+              <c>134.7</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>35–44</c>
+              <c>206.1</c>
+              <c>202.4</c>
+              <c>188.7</c>
+              <c>205.7</c>
+              <c>175.3</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>45–54</c>
+              <c>290.3</c>
+              <c>284.7</c>
+              <c>287.9</c>
+              <c>265.4</c>
+              <c>258.4</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>55–59</c>
+              <c>179.7</c>
+              <c>188.2</c>
+              <c>178.3</c>
+              <c>178.8</c>
+              <c>159.1</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>60–64</c>
+              <c>157.1</c>
+              <c>215</c>
+              <c>207.5</c>
+              <c>204.8</c>
+              <c>188.7</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>65–69</c>
+              <c>137.4</c>
+              <c>165.9</c>
+              <c>206.4</c>
+              <c>209.9</c>
+              <c>219.6</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>70–74</c>
+              <c>162.9</c>
+              <c>168.9</c>
+              <c>175.2</c>
+              <c>193</c>
+              <c>211.8</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>75–79</c>
+              <c>167.6</c>
+              <c>152.5</c>
+              <c>170</c>
+              <c>176.8</c>
+              <c>194</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>80–84</c>
+              <c>150.1</c>
+              <c>158.5</c>
+              <c>166.6</c>
+              <c>163.7</c>
+              <c>169.8</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>85–89</c>
+              <c>98.3</c>
+              <c>131.5</c>
+              <c>137.2</c>
+              <c>131.1</c>
+              <c>129.2</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>90 and over</c>
+              <c>64.1</c>
+              <c>67</c>
+              <c>90.9</c>
+              <c>102.1</c>
+              <c>110</c>
+              <c>Dis Females</c>
+            </r>
+            <r>
+              <c>Total</c>
+              <c>2000.7</c>
+              <c>2063.1</c>
+              <c>2186.2</c>
+              <c>2201.2</c>
+              <c>2224.2</c>
+              <c>Dis Females</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Disabled Females</Name>
+          <DefaultAnnotationText>Disabled Females</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="210" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="678" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="36">C:\Users\armis\JLL Interview\ETL\ACNC_Joined.sqlite|||Disabled_Stats</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <PostSQL />
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ACNC_Joined.sqlite
+Query=Disabled_Stats</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="294" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[2003] * 1000&#xA;" field="2003" size="8" type="Double" />
+            <FormulaField expression="[2009] * 1000" field="2009" size="8" type="Double" />
+            <FormulaField expression="[2012] * 1000" field="2012" size="8" type="Double" />
+            <FormulaField expression="[2015] * 1000" field="2015" size="8" type="Double" />
+            <FormulaField expression="[2018] * 1000" field="2018" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Make Population Figures Real Numbers</Name>
+          <DefaultAnnotationText>Make Population Figures Real Numbers</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace(Left([Age Group], 3), &quot;All&quot;, &quot;Tot&quot;)" field="Age Group" size="12" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Make Age Group Standard</Name>
+          <AnnotationText><![CDATA[Age Group = Left([Age Group], 3)
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Age Group = Replace(Left([Age Group], 3), "All", "Tot")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Left([Age Group], 3)" field="Age Group" size="11" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Age Group = Left([Age Group], 3)
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Age Group = Left([Age Group], 3)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="390" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Left([Age Group], 3)" field="Age Group" size="11" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Age Group = Left([Age Group], 3)
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Age Group = Left([Age Group], 3)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="1098" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\armis\JLL Interview\Data\ABS_STATS_MERGED.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ABS_STATS_MERGED.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="POPULATION FACTORS" size="254" source="File: C:\Users\armis\JLL Interview\Data\ABS_STATS_MERGED.csv" type="V_String" />
+            <Field name="2016" size="254" source="File: C:\Users\armis\JLL Interview\Data\ABS_STATS_MERGED.csv" type="V_String" />
+            <Field name="Source" size="254" source="File: C:\Users\armis\JLL Interview\Data\ABS_STATS_MERGED.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="210" y="1098" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="36">C:\Users\armis\JLL Interview\ETL\ACNC_Joined.sqlite|||ABS_MANUAL_MERGE</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <PostSQL />
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ACNC_Joined.sqlite
+Query=ABS_MANUAL_MERGE</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group Member Charities$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>ACNC_LINK_TABLE</Name>
+          <DefaultAnnotationText>ACNC_LINK_TABLE</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Group Name" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group Member Charities$`" type="V_String" />
+            <Field name="Member ABN" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group Member Charities$`" type="Double" />
+            <Field name="Group Member Names" size="255" source="File: C:\Users\armis\JLL Interview\Data\group-ais16-datagov-final.xlsx|||`Group Member Charities$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="426" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="36">C:\Users\armis\JLL Interview\ETL\ACNC_Joined.sqlite|||ACNC_TOP_GROUP</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <PostSQL />
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ACNC_Joined.sqlite
+Query=ACNC_TOP_GROUP</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="426" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="36">C:\Users\armis\JLL Interview\ETL\ACNC_Joined.sqlite|||ACNC_LINK_TABLE</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <PostSQL />
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ACNC_Joined.sqlite
+Query=ACNC_LINK_TABLE</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ETL_Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

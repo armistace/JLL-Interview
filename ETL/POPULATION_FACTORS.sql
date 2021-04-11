@@ -1,0 +1,5 @@
+SELECT [POPULATION FACTORS]
+       ,[2016]
+       ,[SOURCE]
+       ,(CAST([2016] as real) / CAST(24190907 as real)) as FACTOR 
+FROM ABS_MANUAL_MERGE
