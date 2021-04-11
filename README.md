@@ -6,6 +6,7 @@
 _DATA_
 * Contains most raw sources if auto download in Alteryx wasn't possible
 * Also Contains my "Create" ABS Merged. I ran out of time to generate and ETL and query process to make this table
+* Please Note It contains the flat files I did end up using I have provided Examples in Alteryx of How I _**think**_ this should be done and that is direct connections to the online sources - Allowing the workbook to be used as a decision making tool moving forward rather than a one off report.
 
 _ETL_
 * Contains 
@@ -14,7 +15,11 @@ _ETL_
 3. Two custom SQL queries that pull from that database into the Tableau Report so that the DB - > Tableau step isn't muddied
 
 _REPORT_
-* Contains the Tableau Report
+* Contains the Tableau Reports
+1. Extract mode for publish to Tableau Public
+2. Direct Query mode - This is how I did the actual report - It gave me SQL capability
+_I cheated a bit and used a 14 day trial of professional this has then been turned onto extract mode and published to public_ 
+_Doing this without SQL wasn't for me_
 
 _REVIEW_
 * Contiains some initial notes on my initial review of the ACNC data
