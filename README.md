@@ -8,7 +8,7 @@
 
 _DATA_
 * Contains most raw sources if auto download in Alteryx wasn't possible
-* Also Contains my "Create" ABS Merged. I ran out of time to generate and ETL and query process to make this table
+* Also Contains my "Manually Created" ABS Merged table. I ran out of time to generate and ETL and query process to make this table direct from ABS data
 * Please Note It contains the flat files I did end up using I have provided Examples in Alteryx of How I _**think**_ this should be done and that is direct connections to the online sources - Allowing the workbook to be used as a decision making tool moving forward rather than a one off report.
 
 _ETL_
